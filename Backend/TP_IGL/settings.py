@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'elasticsearch_dsl',
     'authentication',
     'corsheaders',
+    'extraction',
 ]
 
 MIDDLEWARE = [

@@ -7,5 +7,6 @@ urlpatterns = [
     path('app/', include('app.urls')),
     path('auth/', include('authentication.urls')),
     path('', RedirectView.as_view(url='/auth/login/')),  # Redirect to the login page
+    # path('ext/', include('extraction.urls')),
     # Add other app URLs here as needed
 ]
