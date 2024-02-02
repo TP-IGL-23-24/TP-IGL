@@ -1,0 +1,77 @@
+.popAddPage{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.popAdd p{
+    margin-top: 2%;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.popAdd{
+    border: 1px solid #000;
+    background: #F8F9FA;
+    width: 40%;
+    padding: 26px 70px 52px 70px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+.inputs{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.inputs label{
+    color: #102B3E;
+    font-weight: 800;
+
+}
+
+.inputs input{
+    color: #000;
+    font-weight: 400;
+    margin-left: 10px;
+    border-radius: 40px;
+    padding-left: 10px;
+    border: 2px solid #CED9E1;
+}
+
+.buts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17%;margin-top: 20px;
+}
+
+.buts button{
+    border-radius: 10px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 9%;
+}
